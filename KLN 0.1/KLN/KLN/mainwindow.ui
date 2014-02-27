@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>857</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>857</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionHome"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSettings"/>
+    <addaction name="actionOptions"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuInfo">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionVersion"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <widget class="QMenu" name="menuAreas">
+    <property name="title">
+     <string>Areas</string>
+    </property>
+    <addaction name="actionRoom"/>
+    <addaction name="actionKitchen"/>
+    <addaction name="actionHall"/>
+    <addaction name="actionBathroom"/>
+    <addaction name="actionOthers"/>
+   </widget>
+   <widget class="QMenu" name="menuBasic_controls">
+    <property name="title">
+     <string>Basic controls</string>
+    </property>
+    <widget class="QMenu" name="menuNet_connection">
+     <property name="title">
+      <string>Net connection</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="actionNetConnect"/>
+     <addaction name="actionNetDisconnect"/>
+     <addaction name="actionNetOverview"/>
+    </widget>
+    <addaction name="actionClock"/>
+    <addaction name="actionAlarm_clock"/>
+    <addaction name="actionOverall_power"/>
+    <addaction name="menuNet_connection"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuAreas"/>
+   <addaction name="menuBasic_controls"/>
+   <addaction name="menuInfo"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="actionHome"/>
+   <addaction name="actionSave"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/029.png</normaloff>:/images_icons/icons/029.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionVersion">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/023.png</normaloff>:/images_icons/icons/023.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/002 (2).png</normaloff>:/images_icons/icons/002 (2).png</iconset>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionRoom">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/068.png</normaloff>:/images_icons/icons/068.png</iconset>
+   </property>
+   <property name="text">
+    <string>Room</string>
+   </property>
+  </action>
+  <action name="actionKitchen">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/014.png</normaloff>:/images_icons/icons/014.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kitchen</string>
+   </property>
+  </action>
+  <action name="actionHall">
+   <property name="text">
+    <string>Hall</string>
+   </property>
+  </action>
+  <action name="actionBathroom">
+   <property name="text">
+    <string>Bathroom</string>
+   </property>
+  </action>
+  <action name="actionOthers">
+   <property name="text">
+    <string>Others</string>
+   </property>
+  </action>
+  <action name="actionOptions">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/014 (2).png</normaloff>:/images_icons/icons/014 (2).png</iconset>
+   </property>
+   <property name="text">
+    <string>Options</string>
+   </property>
+  </action>
+  <action name="actionHome">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/001.png</normaloff>:/images_icons/icons/001.png</iconset>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/026.png</normaloff>:/images_icons/icons/026.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/008.png</normaloff>:/images_icons/icons/008.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save current settings</string>
+   </property>
+  </action>
+  <action name="actionClock">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/035.png</normaloff>:/images_icons/icons/035.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clock</string>
+   </property>
+  </action>
+  <action name="actionAlarm_clock">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/004.png</normaloff>:/images_icons/icons/004.png</iconset>
+   </property>
+   <property name="text">
+    <string>Alarm clock</string>
+   </property>
+  </action>
+  <action name="actionOverall_power">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/016 (2).png</normaloff>:/images_icons/icons/016 (2).png</iconset>
+   </property>
+   <property name="text">
+    <string>Overall power</string>
+   </property>
+  </action>
+  <action name="actionNetConnect">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/049 (2).png</normaloff>:/images_icons/icons/049 (2).png</iconset>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </action>
+  <action name="actionNetDisconnect">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/050.png</normaloff>:/images_icons/icons/050.png</iconset>
+   </property>
+   <property name="text">
+    <string>Disconnect</string>
+   </property>
+  </action>
+  <action name="actionNetOverview">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images_icons/icons/002 (2).png</normaloff>:/images_icons/icons/002 (2).png</iconset>
+   </property>
+   <property name="text">
+    <string>Overview</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
