@@ -1,0 +1,98 @@
+<RCC>
+    <qresource prefix="/images_icons">
+        <file>icons/home.png</file>
+        <file>icons/info.png</file>
+        <file>icons/login.png</file>
+        <file>icons/note.png</file>
+        <file>icons/process.png</file>
+        <file>icons/001.png</file>
+        <file>icons/001.png</file>
+        <file>icons/002 (2).png</file>
+        <file>icons/002 (3).png</file>
+        <file>icons/002.png</file>
+        <file>icons/004.png</file>
+        <file>icons/008.png</file>
+        <file>icons/014 (2).png</file>
+        <file>icons/014.png</file>
+        <file>icons/016 (2).png</file>
+        <file>icons/016.png</file>
+        <file>icons/019.png</file>
+        <file>icons/022.png</file>
+        <file>icons/023.png</file>
+        <file>icons/024.png</file>
+        <file>icons/026.png</file>
+        <file>icons/027.png</file>
+        <file>icons/028.png</file>
+        <file>icons/031.png</file>
+        <file>icons/035.png</file>
+        <file>icons/038 (2).png</file>
+        <file>icons/038.png</file>
+        <file>icons/039.png</file>
+        <file>icons/042.png</file>
+        <file>icons/046.png</file>
+        <file>icons/047.png</file>
+        <file>icons/048.png</file>
+        <file>icons/049 (2).png</file>
+        <file>icons/049.png</file>
+        <file>icons/050.png</file>
+        <file>icons/068.png</file>
+        <file>icons/home.png</file>
+        <file>icons/info.png</file>
+        <file>icons/login.png</file>
+        <file>icons/note.png</file>
+        <file>icons/process.png</file>
+        <file>icons/029.png</file>
+        <file>icons/Best set 128x128_2/accept_item.png</file>
+        <file>icons/Best set 128x128_2/add_item.png</file>
+        <file>icons/Best set 128x128_2/add_to_favorites.png</file>
+        <file>icons/Best set 128x128_2/attachment.png</file>
+        <file>icons/Best set 128x128_2/calculator.png</file>
+        <file>icons/Best set 128x128_2/calendar.png</file>
+        <file>icons/Best set 128x128_2/camera.png</file>
+        <file>icons/Best set 128x128_2/chart.png</file>
+        <file>icons/Best set 128x128_2/comment_bubble.png</file>
+        <file>icons/Best set 128x128_2/cut.png</file>
+        <file>icons/Best set 128x128_2/database_server.png</file>
+        <file>icons/Best set 128x128_2/delete_item.png</file>
+        <file>icons/Best set 128x128_2/dollar_currency_sign.png</file>
+        <file>icons/Best set 128x128_2/down_arrow.png</file>
+        <file>icons/Best set 128x128_2/edit_item.png</file>
+        <file>icons/Best set 128x128_2/email.png</file>
+        <file>icons/Best set 128x128_2/email_send.png</file>
+        <file>icons/Best set 128x128_2/euro_currency_sign.png</file>
+        <file>icons/Best set 128x128_2/favorite.png</file>
+        <file>icons/Best set 128x128_2/folder.png</file>
+        <file>icons/Best set 128x128_2/hard_disk.png</file>
+        <file>icons/Best set 128x128_2/headphones.png</file>
+        <file>icons/Best set 128x128_2/help.png</file>
+        <file>icons/Best set 128x128_2/home.png</file>
+        <file>icons/Best set 128x128_2/info.png</file>
+        <file>icons/Best set 128x128_2/left_arrow.png</file>
+        <file>icons/Best set 128x128_2/lock.png</file>
+        <file>icons/Best set 128x128_2/login.png</file>
+        <file>icons/Best set 128x128_2/note.png</file>
+        <file>icons/Best set 128x128_2/note_accept.png</file>
+        <file>icons/Best set 128x128_2/note_delete.png</file>
+        <file>icons/Best set 128x128_2/printer.png</file>
+        <file>icons/Best set 128x128_2/process.png</file>
+        <file>icons/Best set 128x128_2/promotion.png</file>
+        <file>icons/Best set 128x128_2/remove_item.png</file>
+        <file>icons/Best set 128x128_2/right_arrow.png</file>
+        <file>icons/Best set 128x128_2/rss_feed.png</file>
+        <file>icons/Best set 128x128_2/search_magnifier.png</file>
+        <file>icons/Best set 128x128_2/shopping_cart.png</file>
+        <file>icons/Best set 128x128_2/telephone.png</file>
+        <file>icons/Best set 128x128_2/tool.png</file>
+        <file>icons/Best set 128x128_2/trash.png</file>
+        <file>icons/Best set 128x128_2/unlock.png</file>
+        <file>icons/Best set 128x128_2/up_arrow.png</file>
+        <file>icons/Best set 128x128_2/user.png</file>
+        <file>icons/Best set 128x128_2/user_comment.png</file>
+        <file>icons/Best set 128x128_2/users.png</file>
+        <file>icons/Best set 128x128_2/video_movie_track.png</file>
+        <file>icons/Best set 128x128_2/world_globe.png</file>
+        <file>icons/Best set 128x128_2/yen_currency_sign.png</file>
+        <file>icons/Best set 128x128_2/zoom_in_magnifier.png</file>
+        <file>icons/Best set 128x128_2/zoom_out_magnifier.png</file>
+    </qresource>
+</RCC>
