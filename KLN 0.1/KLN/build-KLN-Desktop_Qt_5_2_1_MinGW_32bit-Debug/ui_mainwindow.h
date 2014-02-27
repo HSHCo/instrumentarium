@@ -13,11 +13,14 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
@@ -44,13 +47,28 @@ public:
     QAction *actionNetConnect;
     QAction *actionNetDisconnect;
     QAction *actionNetOverview;
+    QAction *actionAndroidConnect;
     QWidget *centralWidget;
+    QTabWidget *tabWidget;
+    QWidget *tab;
+    QWidget *tab_3;
+    QWidget *tab_4;
+    QWidget *tab_2;
+    QWidget *tab_5;
+    QGroupBox *groupBox;
+    QPushButton *pushButton_3;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
+    QGroupBox *groupBox_2;
+    QGroupBox *groupBox_3;
+    QGroupBox *groupBox_4;
     QMenuBar *menuBar;
     QMenu *menuMenu;
     QMenu *menuInfo;
     QMenu *menuAreas;
     QMenu *menuBasic_controls;
     QMenu *menuNet_connection;
+    QMenu *menuRemote;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
@@ -58,11 +76,11 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(857, 479);
+        MainWindow->resize(689, 423);
         actionExit = new QAction(MainWindow);
         actionExit->setObjectName(QStringLiteral("actionExit"));
         QIcon icon;
-        icon.addFile(QStringLiteral(":/images_icons/icons/029.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QStringLiteral(":/Icons/all/icons/ios7-undo-outline.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExit->setIcon(icon);
         actionVersion = new QAction(MainWindow);
         actionVersion->setObjectName(QStringLiteral("actionVersion"));
@@ -103,7 +121,7 @@ public:
         actionSettings = new QAction(MainWindow);
         actionSettings->setObjectName(QStringLiteral("actionSettings"));
         QIcon icon7;
-        icon7.addFile(QStringLiteral(":/images_icons/icons/026.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon7.addFile(QStringLiteral(":/Icons/all/icons/ios7-gear-outline.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSettings->setIcon(icon7);
         actionSave = new QAction(MainWindow);
         actionSave->setObjectName(QStringLiteral("actionSave"));
@@ -113,12 +131,12 @@ public:
         actionClock = new QAction(MainWindow);
         actionClock->setObjectName(QStringLiteral("actionClock"));
         QIcon icon9;
-        icon9.addFile(QStringLiteral(":/images_icons/icons/035.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon9.addFile(QStringLiteral(":/Icons/all/icons/ios7-time-outline.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionClock->setIcon(icon9);
         actionAlarm_clock = new QAction(MainWindow);
         actionAlarm_clock->setObjectName(QStringLiteral("actionAlarm_clock"));
         QIcon icon10;
-        icon10.addFile(QStringLiteral(":/images_icons/icons/004.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon10.addFile(QStringLiteral(":/Icons/all/icons/ios7-alarm-outline.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionAlarm_clock->setIcon(icon10);
         actionOverall_power = new QAction(MainWindow);
         actionOverall_power->setObjectName(QStringLiteral("actionOverall_power"));
@@ -128,7 +146,7 @@ public:
         actionNetConnect = new QAction(MainWindow);
         actionNetConnect->setObjectName(QStringLiteral("actionNetConnect"));
         QIcon icon12;
-        icon12.addFile(QStringLiteral(":/images_icons/icons/049 (2).png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon12.addFile(QStringLiteral(":/Icons/all/icons/social-rss-outline.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionNetConnect->setIcon(icon12);
         actionNetDisconnect = new QAction(MainWindow);
         actionNetDisconnect->setObjectName(QStringLiteral("actionNetDisconnect"));
@@ -138,12 +156,67 @@ public:
         actionNetOverview = new QAction(MainWindow);
         actionNetOverview->setObjectName(QStringLiteral("actionNetOverview"));
         actionNetOverview->setIcon(icon2);
+        actionAndroidConnect = new QAction(MainWindow);
+        actionAndroidConnect->setObjectName(QStringLiteral("actionAndroidConnect"));
+        QIcon icon14;
+        icon14.addFile(QStringLiteral(":/Icons/all/icons/social-android-outline.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionAndroidConnect->setIcon(icon14);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        tabWidget = new QTabWidget(centralWidget);
+        tabWidget->setObjectName(QStringLiteral("tabWidget"));
+        tabWidget->setGeometry(QRect(0, 0, 641, 381));
+        tabWidget->setTabPosition(QTabWidget::South);
+        tabWidget->setElideMode(Qt::ElideMiddle);
+        tab = new QWidget();
+        tab->setObjectName(QStringLiteral("tab"));
+        tabWidget->addTab(tab, QString());
+        tab_3 = new QWidget();
+        tab_3->setObjectName(QStringLiteral("tab_3"));
+        tabWidget->addTab(tab_3, QString());
+        tab_4 = new QWidget();
+        tab_4->setObjectName(QStringLiteral("tab_4"));
+        tabWidget->addTab(tab_4, QString());
+        tab_2 = new QWidget();
+        tab_2->setObjectName(QStringLiteral("tab_2"));
+        tabWidget->addTab(tab_2, QString());
+        tab_5 = new QWidget();
+        tab_5->setObjectName(QStringLiteral("tab_5"));
+        groupBox = new QGroupBox(tab_5);
+        groupBox->setObjectName(QStringLiteral("groupBox"));
+        groupBox->setGeometry(QRect(10, 10, 71, 241));
+        pushButton_3 = new QPushButton(groupBox);
+        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
+        pushButton_3->setGeometry(QRect(10, 99, 50, 50));
+        QIcon icon15;
+        icon15.addFile(QStringLiteral(":/Icons/all/icons/bulb.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon15.addFile(QStringLiteral(":/Icons/all/icons/idea-icon.png"), QSize(), QIcon::Normal, QIcon::On);
+        pushButton_3->setIcon(icon15);
+        pushButton_3->setIconSize(QSize(32, 32));
+        pushButton = new QPushButton(groupBox);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setGeometry(QRect(10, 30, 50, 50));
+        pushButton->setIcon(icon15);
+        pushButton->setIconSize(QSize(32, 32));
+        pushButton_2 = new QPushButton(groupBox);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        pushButton_2->setGeometry(QRect(10, 168, 50, 50));
+        pushButton_2->setIcon(icon15);
+        pushButton_2->setIconSize(QSize(32, 32));
+        groupBox_2 = new QGroupBox(tab_5);
+        groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
+        groupBox_2->setGeometry(QRect(350, 10, 281, 241));
+        groupBox_3 = new QGroupBox(tab_5);
+        groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
+        groupBox_3->setGeometry(QRect(90, 10, 251, 241));
+        groupBox_4 = new QGroupBox(tab_5);
+        groupBox_4->setObjectName(QStringLiteral("groupBox_4"));
+        groupBox_4->setGeometry(QRect(10, 259, 621, 91));
+        tabWidget->addTab(tab_5, QString());
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 857, 18));
+        menuBar->setGeometry(QRect(0, 0, 689, 18));
         menuMenu = new QMenu(menuBar);
         menuMenu->setObjectName(QStringLiteral("menuMenu"));
         menuInfo = new QMenu(menuBar);
@@ -154,11 +227,12 @@ public:
         menuBasic_controls->setObjectName(QStringLiteral("menuBasic_controls"));
         menuNet_connection = new QMenu(menuBasic_controls);
         menuNet_connection->setObjectName(QStringLiteral("menuNet_connection"));
+        menuRemote = new QMenu(menuBar);
+        menuRemote->setObjectName(QStringLiteral("menuRemote"));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
-        MainWindow->addToolBar(Qt::TopToolBarArea, mainToolBar);
-        MainWindow->insertToolBarBreak(mainToolBar);
+        MainWindow->addToolBar(Qt::LeftToolBarArea, mainToolBar);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QStringLiteral("statusBar"));
         MainWindow->setStatusBar(statusBar);
@@ -167,6 +241,7 @@ public:
         menuBar->addAction(menuAreas->menuAction());
         menuBar->addAction(menuBasic_controls->menuAction());
         menuBar->addAction(menuInfo->menuAction());
+        menuBar->addAction(menuRemote->menuAction());
         menuMenu->addAction(actionHome);
         menuMenu->addAction(actionSave);
         menuMenu->addAction(actionSettings);
@@ -187,10 +262,20 @@ public:
         menuNet_connection->addAction(actionNetConnect);
         menuNet_connection->addAction(actionNetDisconnect);
         menuNet_connection->addAction(actionNetOverview);
+        menuRemote->addAction(actionAndroidConnect);
+        mainToolBar->addAction(actionExit);
+        mainToolBar->addAction(actionClock);
+        mainToolBar->addAction(actionAlarm_clock);
+        mainToolBar->addAction(actionNetConnect);
+        mainToolBar->addAction(actionSettings);
+        mainToolBar->addAction(actionAndroidConnect);
         mainToolBar->addAction(actionHome);
         mainToolBar->addAction(actionSave);
 
         retranslateUi(MainWindow);
+
+        tabWidget->setCurrentIndex(4);
+
 
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
@@ -219,11 +304,25 @@ public:
         actionNetConnect->setText(QApplication::translate("MainWindow", "Connect", 0));
         actionNetDisconnect->setText(QApplication::translate("MainWindow", "Disconnect", 0));
         actionNetOverview->setText(QApplication::translate("MainWindow", "Overview", 0));
+        actionAndroidConnect->setText(QApplication::translate("MainWindow", "AndroidConnect", 0));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "Overall", 0));
+        tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("MainWindow", "Room", 0));
+        tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("MainWindow", "Kitchen", 0));
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("MainWindow", "Bathroom", 0));
+        groupBox->setTitle(QApplication::translate("MainWindow", "Lights", 0));
+        pushButton_3->setText(QString());
+        pushButton->setText(QString());
+        pushButton_2->setText(QString());
+        groupBox_2->setTitle(QApplication::translate("MainWindow", "Video", 0));
+        groupBox_3->setTitle(QApplication::translate("MainWindow", "Something else", 0));
+        groupBox_4->setTitle(QApplication::translate("MainWindow", "Even more", 0));
+        tabWidget->setTabText(tabWidget->indexOf(tab_5), QApplication::translate("MainWindow", "Hall", 0));
         menuMenu->setTitle(QApplication::translate("MainWindow", "Menu", 0));
         menuInfo->setTitle(QApplication::translate("MainWindow", "Info", 0));
         menuAreas->setTitle(QApplication::translate("MainWindow", "Areas", 0));
         menuBasic_controls->setTitle(QApplication::translate("MainWindow", "Basic controls", 0));
         menuNet_connection->setTitle(QApplication::translate("MainWindow", "Net connection", 0));
+        menuRemote->setTitle(QApplication::translate("MainWindow", "Remote", 0));
     } // retranslateUi
 
 };

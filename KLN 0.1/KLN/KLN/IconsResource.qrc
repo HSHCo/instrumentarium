@@ -1,3 +1,215 @@
 <RCC>
-    <qresource prefix="/Icons/all"/>
+    <qresource prefix="/Icons/all">
+        <file>icons/001.png</file>
+        <file>icons/004.png</file>
+        <file>icons/008.png</file>
+        <file>icons/014 (2).png</file>
+        <file>icons/016 (2).png</file>
+        <file>icons/android-stopwatch.png</file>
+        <file>icons/android-system-back.png</file>
+        <file>icons/android-system-home.png</file>
+        <file>icons/android-system-windows.png</file>
+        <file>icons/android-timer.png</file>
+        <file>icons/bag.png</file>
+        <file>icons/battery-empty.png</file>
+        <file>icons/bulb.png</file>
+        <file>icons/idea-icon.png</file>
+        <file>icons/ios7-alarm-outline.png</file>
+        <file>icons/ios7-albums-outline.png</file>
+        <file>icons/ios7-arrow-down.png</file>
+        <file>icons/ios7-arrow-left.png</file>
+        <file>icons/ios7-arrow-right.png</file>
+        <file>icons/ios7-arrow-thin-down.png</file>
+        <file>icons/ios7-arrow-thin-left.png</file>
+        <file>icons/ios7-arrow-thin-right.png</file>
+        <file>icons/ios7-arrow-thin-up.png</file>
+        <file>icons/ios7-arrow-up.png</file>
+        <file>icons/ios7-at.png</file>
+        <file>icons/ios7-at-outline.png</file>
+        <file>icons/ios7-bell-outline.png</file>
+        <file>icons/ios7-bolt-outline.png</file>
+        <file>icons/ios7-bookmarks-outline.png</file>
+        <file>icons/ios7-box-outline.png</file>
+        <file>icons/ios7-briefcase-outline.png</file>
+        <file>icons/ios7-browsers-outline.png</file>
+        <file>icons/ios7-calculator-outline.png</file>
+        <file>icons/ios7-calendar-outline.png</file>
+        <file>icons/ios7-camera-outline.png</file>
+        <file>icons/ios7-cart-outline.png</file>
+        <file>icons/ios7-chatboxes-outline.png</file>
+        <file>icons/ios7-chatbubble-outline.png</file>
+        <file>icons/ios7-checkmark-empty.png</file>
+        <file>icons/ios7-checkmark-outline.png</file>
+        <file>icons/ios7-circle-outline.png</file>
+        <file>icons/ios7-clock-outline.png</file>
+        <file>icons/ios7-close-empty.png</file>
+        <file>icons/ios7-close-outline.png</file>
+        <file>icons/ios7-cloud-download-outline.png</file>
+        <file>icons/ios7-cloud-outline.png</file>
+        <file>icons/ios7-cloud-upload-outline.png</file>
+        <file>icons/ios7-cloudy-night-outline.png</file>
+        <file>icons/ios7-cloudy-outline.png</file>
+        <file>icons/ios7-cog-outline.png</file>
+        <file>icons/ios7-compose-outline.png</file>
+        <file>icons/ios7-copy-outline.png</file>
+        <file>icons/ios7-download-outline.png</file>
+        <file>icons/ios7-drag.png</file>
+        <file>icons/ios7-email-outline.png</file>
+        <file>icons/ios7-eye-outline.png</file>
+        <file>icons/ios7-fastforward-outline.png</file>
+        <file>icons/ios7-filing-outline.png</file>
+        <file>icons/ios7-film-outline.png</file>
+        <file>icons/ios7-flag-outline.png</file>
+        <file>icons/ios7-folder-outline.png</file>
+        <file>icons/ios7-gear-outline.png</file>
+        <file>icons/ios7-glasses-outline.png</file>
+        <file>icons/ios7-heart-outline.png</file>
+        <file>icons/ios7-help-empty.png</file>
+        <file>icons/ios7-help-outline.png</file>
+        <file>icons/ios7-infinite.png</file>
+        <file>icons/ios7-infinite-outline.png</file>
+        <file>icons/ios7-information-empty.png</file>
+        <file>icons/ios7-information-outline.png</file>
+        <file>icons/ios7-ionic-outline.png</file>
+        <file>icons/ios7-keypad-outline.png</file>
+        <file>icons/ios7-lightbulb-outline.png</file>
+        <file>icons/ios7-location-outline.png</file>
+        <file>icons/ios7-locked-outline.png</file>
+        <file>icons/ios7-medkit-outline.png</file>
+        <file>icons/ios7-mic-outline.png</file>
+        <file>icons/ios7-minus-empty.png</file>
+        <file>icons/ios7-minus-outline.png</file>
+        <file>icons/ios7-monitor-outline.png</file>
+        <file>icons/ios7-moon.png</file>
+        <file>icons/ios7-moon-outline.png</file>
+        <file>icons/ios7-more.png</file>
+        <file>icons/ios7-more-outline.png</file>
+        <file>icons/ios7-navigate-outline.png</file>
+        <file>icons/ios7-paperplane-outline.png</file>
+        <file>icons/ios7-partlysunny-outline.png</file>
+        <file>icons/ios7-pause-outline.png</file>
+        <file>icons/ios7-people-outline.png</file>
+        <file>icons/ios7-personadd-outline.png</file>
+        <file>icons/ios7-person-outline.png</file>
+        <file>icons/ios7-photos-outline.png</file>
+        <file>icons/ios7-pie-outline.png</file>
+        <file>icons/ios7-play-outline.png</file>
+        <file>icons/ios7-plus-empty.png</file>
+        <file>icons/ios7-plus-outline.png</file>
+        <file>icons/ios7-pricetag-outline.png</file>
+        <file>icons/ios7-printer-outline.png</file>
+        <file>icons/ios7-rainy-outline.png</file>
+        <file>icons/ios7-recording-outline.png</file>
+        <file>icons/ios7-redo.png</file>
+        <file>icons/ios7-redo-outline.png</file>
+        <file>icons/ios7-refresh-empty.png</file>
+        <file>icons/ios7-refresh-outline.png</file>
+        <file>icons/ios7-reload.png</file>
+        <file>icons/ios7-rewind-outline.png</file>
+        <file>icons/ios7-search.png</file>
+        <file>icons/ios7-search-strong.png</file>
+        <file>icons/ios7-skipbackward-outline.png</file>
+        <file>icons/ios7-skipforward-outline.png</file>
+        <file>icons/ios7-snowy.png</file>
+        <file>icons/ios7-speedometer-outline.png</file>
+        <file>icons/ios7-star-outline.png</file>
+        <file>icons/ios7-stopwatch-outline.png</file>
+        <file>icons/ios7-sunny.png</file>
+        <file>icons/ios7-sunny-outline.png</file>
+        <file>icons/ios7-telephone-outline.png</file>
+        <file>icons/ios7-thunderstorm-outline.png</file>
+        <file>icons/ios7-time-outline.png</file>
+        <file>icons/ios7-timer-outline.png</file>
+        <file>icons/ios7-trash-outline.png</file>
+        <file>icons/ios7-undo-outline.png</file>
+        <file>icons/ios7-unlocked-outline.png</file>
+        <file>icons/ios7-upload-outline.png</file>
+        <file>icons/ios7-videocam-outline.png</file>
+        <file>icons/ios7-wineglass-outline.png</file>
+        <file>icons/ios7-world-outline.png</file>
+        <file>icons/ipad.png</file>
+        <file>icons/iphone.png</file>
+        <file>icons/laptop.png</file>
+        <file>icons/load-c.png</file>
+        <file>icons/load-d.png</file>
+        <file>icons/map.png</file>
+        <file>icons/minus.png</file>
+        <file>icons/minus-round.png</file>
+        <file>icons/monitor.png</file>
+        <file>icons/more.png</file>
+        <file>icons/navicon.png</file>
+        <file>icons/paper-airplane.png</file>
+        <file>icons/paperclip.png</file>
+        <file>icons/pinpoint.png</file>
+        <file>icons/social-android-outline.png</file>
+        <file>icons/social-apple-outline.png</file>
+        <file>icons/social-bitcoin-outline.png</file>
+        <file>icons/social-buffer-outline.png</file>
+        <file>icons/social-designernews-outline.png</file>
+        <file>icons/social-dribbble-outline.png</file>
+        <file>icons/social-dropbox-outline.png</file>
+        <file>icons/social-facebook-outline.png</file>
+        <file>icons/social-github-outline.png</file>
+        <file>icons/social-hackernews-outline.png</file>
+        <file>icons/social-reddit-outline.png</file>
+        <file>icons/social-rss-outline.png</file>
+        <file>icons/social-skype-outline.png</file>
+        <file>icons/social-tumblr-outline.png</file>
+        <file>icons/social-tux.png</file>
+        <file>icons/social-twitter-outline.png</file>
+        <file>icons/social-vimeo-outline.png</file>
+        <file>icons/social-windows-outline.png</file>
+        <file>icons/Best set 128x128_2/accept_item.png</file>
+        <file>icons/Best set 128x128_2/add_item.png</file>
+        <file>icons/Best set 128x128_2/add_to_favorites.png</file>
+        <file>icons/Best set 128x128_2/attachment.png</file>
+        <file>icons/Best set 128x128_2/calculator.png</file>
+        <file>icons/Best set 128x128_2/calendar.png</file>
+        <file>icons/Best set 128x128_2/camera.png</file>
+        <file>icons/Best set 128x128_2/chart.png</file>
+        <file>icons/Best set 128x128_2/comment_bubble.png</file>
+        <file>icons/Best set 128x128_2/cut.png</file>
+        <file>icons/Best set 128x128_2/database_server.png</file>
+        <file>icons/Best set 128x128_2/delete_item.png</file>
+        <file>icons/Best set 128x128_2/dollar_currency_sign.png</file>
+        <file>icons/Best set 128x128_2/down_arrow.png</file>
+        <file>icons/Best set 128x128_2/edit_item.png</file>
+        <file>icons/Best set 128x128_2/email.png</file>
+        <file>icons/Best set 128x128_2/email_send.png</file>
+        <file>icons/Best set 128x128_2/euro_currency_sign.png</file>
+        <file>icons/Best set 128x128_2/favorite.png</file>
+        <file>icons/Best set 128x128_2/folder.png</file>
+        <file>icons/Best set 128x128_2/hard_disk.png</file>
+        <file>icons/Best set 128x128_2/headphones.png</file>
+        <file>icons/Best set 128x128_2/help.png</file>
+        <file>icons/Best set 128x128_2/home.png</file>
+        <file>icons/Best set 128x128_2/info.png</file>
+        <file>icons/Best set 128x128_2/left_arrow.png</file>
+        <file>icons/Best set 128x128_2/lock.png</file>
+        <file>icons/Best set 128x128_2/login.png</file>
+        <file>icons/Best set 128x128_2/note.png</file>
+        <file>icons/Best set 128x128_2/note_accept.png</file>
+        <file>icons/Best set 128x128_2/note_delete.png</file>
+        <file>icons/Best set 128x128_2/printer.png</file>
+        <file>icons/Best set 128x128_2/process.png</file>
+        <file>icons/Best set 128x128_2/promotion.png</file>
+        <file>icons/Best set 128x128_2/remove_item.png</file>
+        <file>icons/Best set 128x128_2/right_arrow.png</file>
+        <file>icons/Best set 128x128_2/rss_feed.png</file>
+        <file>icons/Best set 128x128_2/search_magnifier.png</file>
+        <file>icons/Best set 128x128_2/shopping_cart.png</file>
+        <file>icons/Best set 128x128_2/telephone.png</file>
+        <file>icons/Best set 128x128_2/tool.png</file>
+        <file>icons/Best set 128x128_2/trash.png</file>
+        <file>icons/Best set 128x128_2/unlock.png</file>
+        <file>icons/Best set 128x128_2/up_arrow.png</file>
+        <file>icons/Best set 128x128_2/user.png</file>
+        <file>icons/Best set 128x128_2/user_comment.png</file>
+        <file>icons/Best set 128x128_2/users.png</file>
+        <file>icons/Best set 128x128_2/video_movie_track.png</file>
+        <file>icons/Best set 128x128_2/world_globe.png</file>
+        <file>icons/Best set 128x128_2/yen_currency_sign.png</file>
+        <file>icons/Best set 128x128_2/zoom_in_magnifier.png</file>
+        <file>icons/Best set 128x128_2/zoom_out_magnifier.png</file>
+    </qresource>
 </RCC>

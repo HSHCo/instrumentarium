@@ -6,20 +6,189 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>857</width>
-    <height>479</height>
+    <width>689</width>
+    <height>423</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::South</enum>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideMiddle</enum>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Overall</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Room</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Kitchen</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Bathroom</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Hall</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>71</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Lights</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>99</y>
+         <width>50</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="IconsResource.qrc">
+         <normaloff>:/Icons/all/icons/bulb.png</normaloff>
+         <normalon>:/Icons/all/icons/idea-icon.png</normalon>:/Icons/all/icons/bulb.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>50</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="IconsResource.qrc">
+         <normaloff>:/Icons/all/icons/bulb.png</normaloff>
+         <normalon>:/Icons/all/icons/idea-icon.png</normalon>:/Icons/all/icons/bulb.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>168</y>
+         <width>50</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="IconsResource.qrc">
+         <normaloff>:/Icons/all/icons/bulb.png</normaloff>
+         <normalon>:/Icons/all/icons/idea-icon.png</normalon>:/Icons/all/icons/bulb.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>10</y>
+        <width>281</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Video</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>251</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Something else</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>259</y>
+        <width>621</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Even more</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>857</width>
+     <width>689</width>
      <height>18</height>
     </rect>
    </property>
@@ -68,26 +237,39 @@
     <addaction name="actionOverall_power"/>
     <addaction name="menuNet_connection"/>
    </widget>
+   <widget class="QMenu" name="menuRemote">
+    <property name="title">
+     <string>Remote</string>
+    </property>
+    <addaction name="actionAndroidConnect"/>
+   </widget>
    <addaction name="menuMenu"/>
    <addaction name="menuAreas"/>
    <addaction name="menuBasic_controls"/>
    <addaction name="menuInfo"/>
+   <addaction name="menuRemote"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
+    <enum>LeftToolBarArea</enum>
    </attribute>
    <attribute name="toolBarBreak">
-    <bool>true</bool>
+    <bool>false</bool>
    </attribute>
+   <addaction name="actionExit"/>
+   <addaction name="actionClock"/>
+   <addaction name="actionAlarm_clock"/>
+   <addaction name="actionNetConnect"/>
+   <addaction name="actionSettings"/>
+   <addaction name="actionAndroidConnect"/>
    <addaction name="actionHome"/>
    <addaction name="actionSave"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionExit">
    <property name="icon">
-    <iconset>
-     <normaloff>:/images_icons/icons/029.png</normaloff>:/images_icons/icons/029.png</iconset>
+    <iconset resource="IconsResource.qrc">
+     <normaloff>:/Icons/all/icons/ios7-undo-outline.png</normaloff>:/Icons/all/icons/ios7-undo-outline.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -164,8 +346,8 @@
   </action>
   <action name="actionSettings">
    <property name="icon">
-    <iconset>
-     <normaloff>:/images_icons/icons/026.png</normaloff>:/images_icons/icons/026.png</iconset>
+    <iconset resource="IconsResource.qrc">
+     <normaloff>:/Icons/all/icons/ios7-gear-outline.png</normaloff>:/Icons/all/icons/ios7-gear-outline.png</iconset>
    </property>
    <property name="text">
     <string>Settings</string>
@@ -185,8 +367,8 @@
   </action>
   <action name="actionClock">
    <property name="icon">
-    <iconset>
-     <normaloff>:/images_icons/icons/035.png</normaloff>:/images_icons/icons/035.png</iconset>
+    <iconset resource="IconsResource.qrc">
+     <normaloff>:/Icons/all/icons/ios7-time-outline.png</normaloff>:/Icons/all/icons/ios7-time-outline.png</iconset>
    </property>
    <property name="text">
     <string>Clock</string>
@@ -194,8 +376,8 @@
   </action>
   <action name="actionAlarm_clock">
    <property name="icon">
-    <iconset>
-     <normaloff>:/images_icons/icons/004.png</normaloff>:/images_icons/icons/004.png</iconset>
+    <iconset resource="IconsResource.qrc">
+     <normaloff>:/Icons/all/icons/ios7-alarm-outline.png</normaloff>:/Icons/all/icons/ios7-alarm-outline.png</iconset>
    </property>
    <property name="text">
     <string>Alarm clock</string>
@@ -212,8 +394,8 @@
   </action>
   <action name="actionNetConnect">
    <property name="icon">
-    <iconset>
-     <normaloff>:/images_icons/icons/049 (2).png</normaloff>:/images_icons/icons/049 (2).png</iconset>
+    <iconset resource="IconsResource.qrc">
+     <normaloff>:/Icons/all/icons/social-rss-outline.png</normaloff>:/Icons/all/icons/social-rss-outline.png</iconset>
    </property>
    <property name="text">
     <string>Connect</string>
@@ -237,8 +419,19 @@
     <string>Overview</string>
    </property>
   </action>
+  <action name="actionAndroidConnect">
+   <property name="icon">
+    <iconset resource="IconsResource.qrc">
+     <normaloff>:/Icons/all/icons/social-android-outline.png</normaloff>:/Icons/all/icons/social-android-outline.png</iconset>
+   </property>
+   <property name="text">
+    <string>AndroidConnect</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="IconsResource.qrc"/>
+ </resources>
  <connections/>
 </ui>
