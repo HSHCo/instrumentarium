@@ -17,8 +17,8 @@
 
 /*-----( Import needed libraries )-----*/
 #include <SPI.h>
-#include <H:\Arduino\examples\NRF24_communication\TRNSMR\nRF24L01.h>
-#include <H:\Arduino\examples\NRF24_communication\TRNSMR\RF24.h>
+#include <nRF24L01.h>
+#include <RF24.h>
 
 /*-----( Declare Constants and Pin Numbers )-----*/
 #define CE_PIN   9
