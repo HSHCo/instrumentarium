@@ -7,9 +7,9 @@
 #define CSN_PIN 10
 #define switcherPin 7
 
-const uint64_t pipe = 0xE8E8F0F0E1LL; // Define the transmit pipe
-RF24 radio(CE_PIN, CSN_PIN); // Create a Radio
-int joystick[2];  // 2 element array holding Joystick readings
+const uint64_t pipe = 0xE8E8F0F0E1LL;    // Define the transmit pipe
+RF24 radio(CE_PIN, CSN_PIN);             // Create a Radio
+int joystick[2];                         // 2 element array holding Joystick readings
 bool switch_on = 1;
 
 void setup()   
