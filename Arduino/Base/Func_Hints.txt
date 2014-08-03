@@ -1,0 +1,4 @@
+
+  digitalWrite(switcherPin, LOW);
+  delay(1000);
+  digitalWrite(switcherPin, HIGH);

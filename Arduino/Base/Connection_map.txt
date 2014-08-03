@@ -1,3 +1,5 @@
+// UNO
+
 /* 
    1 - GND
    2 - VCC 3.3V !!! NOT 5V
@@ -6,6 +8,22 @@
    5 - SCK to Arduino pin 13
    6 - MOSI to Arduino pin 11
    7 - MISO to Arduino pin 12
+   8 - UNUSED
+   - 
+   
+*/
+
+
+// Mega
+
+/* 
+   1 - GND
+   2 - VCC 3.3V !!! NOT 5V
+   3 - CE to Arduino pin 53
+   4 - CSN to Arduino pin 48
+   5 - SCK to Arduino pin 52
+   6 - MOSI to Arduino pin 51
+   7 - MISO to Arduino pin 50
    8 - UNUSED
    - 
    
