@@ -1,0 +1,313 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>lighton.png</file>
+        <file>lightoff.png</file>
+        <file>sd/appbar.addcomment.rest.png</file>
+        <file>sd/appbar.addnotes.rest.png</file>
+        <file>sd/appbar.addpicture.rest.png</file>
+        <file>sd/appbar.addtag.rest.png</file>
+        <file>sd/appbar.alarmclock.rest.png</file>
+        <file>sd/appbar.animal.cat.rest.png</file>
+        <file>sd/appbar.animal.dog.rest.png</file>
+        <file>sd/appbar.animal.sheep.rest.png</file>
+        <file>sd/appbar.animal.snail.rest.png</file>
+        <file>sd/appbar.at.rest.png</file>
+        <file>sd/appbar.attach.rest.png</file>
+        <file>sd/appbar.audio.rest.png</file>
+        <file>sd/appbar.calendar.late.rest.png</file>
+        <file>sd/appbar.car.rest.png</file>
+        <file>sd/appbar.cellphone.rest.png</file>
+        <file>sd/appbar.drink.beer.rest.png</file>
+        <file>sd/appbar.drink.cocktail.rest.png</file>
+        <file>sd/appbar.drink.coffee.rest.png</file>
+        <file>sd/appbar.edittext.rest.png</file>
+        <file>sd/appbar.favs.removefrom.rest.png</file>
+        <file>sd/appbar.feature.frontcamera.rest.png</file>
+        <file>sd/appbar.folder.rest.png</file>
+        <file>sd/appbar.food.cake.rest.png</file>
+        <file>sd/appbar.food.pizza.rest.png</file>
+        <file>sd/appbar.format.rest.png</file>
+        <file>sd/appbar.game.achievements.rest.png</file>
+        <file>sd/appbar.game.addfriend.rest.png</file>
+        <file>sd/appbar.game.removefriend.rest.png</file>
+        <file>sd/appbar.gotoaddressbar.rest.png</file>
+        <file>sd/appbar.gotodate.rest.png</file>
+        <file>sd/appbar.gotoslide.rest.png</file>
+        <file>sd/appbar.goup.rest.png</file>
+        <file>sd/appbar.heart2.broken.rest.png</file>
+        <file>sd/appbar.heart2.empty.rest.png</file>
+        <file>sd/appbar.heart2.rest.png</file>
+        <file>sd/appbar.heart.broken.rest.png</file>
+        <file>sd/appbar.heart.rest.png</file>
+        <file>sd/appbar.keyboard.rest.png</file>
+        <file>sd/appbar.lamp.rest.png</file>
+        <file>sd/appbar.linkto.rest.png</file>
+        <file>sd/appbar.linkto.withlinks.rest.png</file>
+        <file>sd/appbar.lips.rest.png</file>
+        <file>sd/appbar.lock.rest.png</file>
+        <file>sd/appbar.manage.rest.png</file>
+        <file>sd/appbar.map.centerme.rest.png</file>
+        <file>sd/appbar.map.checkin.rest.png</file>
+        <file>sd/appbar.map.direction.rest.png</file>
+        <file>sd/appbar.map.neighboorhood.rest.png</file>
+        <file>sd/appbar.map.poi.rest.png</file>
+        <file>sd/appbar.map.position.rest.png</file>
+        <file>sd/appbar.mic.mute.rest.png</file>
+        <file>sd/appbar.mic.rest.png</file>
+        <file>sd/appbar.money.rest.png</file>
+        <file>sd/appbar.movetofolder.rest.png</file>
+        <file>sd/appbar.music.shuffle.rest.png</file>
+        <file>sd/appbar.notes.rest.png</file>
+        <file>sd/appbar.numberlist.rest.png</file>
+        <file>sd/appbar.palmtree.rest.png</file>
+        <file>sd/appbar.people.1.rest.png</file>
+        <file>sd/appbar.people.2.rest.png</file>
+        <file>sd/appbar.phone.asterisk.rest.png</file>
+        <file>sd/appbar.phone.numbersign.rest.png</file>
+        <file>sd/appbar.phone.rest.png</file>
+        <file>sd/appbar.phonebook.rest.png</file>
+        <file>sd/appbar.phonekeys.rest.png</file>
+        <file>sd/appbar.photo.autoflash.rest.png</file>
+        <file>sd/appbar.photo.fix.rest.png</file>
+        <file>sd/appbar.photo.fixundo.rest.png</file>
+        <file>sd/appbar.photo.flash.rest.png</file>
+        <file>sd/appbar.photo.iris.rest.png</file>
+        <file>sd/appbar.photo.light.rest.png</file>
+        <file>sd/appbar.photo.noflash.rest.png</file>
+        <file>sd/appbar.photo.nolight.rest.png</file>
+        <file>sd/appbar.photo.redeye.rest.png</file>
+        <file>sd/appbar.pin.rest.png</file>
+        <file>sd/appbar.plane.rest.png</file>
+        <file>sd/appbar.replymeetingrequest.rest.png</file>
+        <file>sd/appbar.repond.rest.png</file>
+        <file>sd/appbar.rose.dimmed.rest.png</file>
+        <file>sd/appbar.rose.rest.png</file>
+        <file>sd/appbar.search.refine.rest.png</file>
+        <file>sd/appbar.send.photo.rest.png</file>
+        <file>sd/appbar.send.text.rest.png</file>
+        <file>sd/appbar.send.video.rest.png</file>
+        <file>sd/appbar.sendmessage.rest.png</file>
+        <file>sd/appbar.sendpoi.rest.png</file>
+        <file>sd/appbar.smile.1.rest.png</file>
+        <file>sd/appbar.smile.2.rest.png</file>
+        <file>sd/appbar.smile.3.rest.png</file>
+        <file>sd/appbar.smile.4.rest.png</file>
+        <file>sd/appbar.smile.5.rest.png</file>
+        <file>sd/appbar.smile.6.rest.png</file>
+        <file>sd/appbar.smile.7.rest.png</file>
+        <file>sd/appbar.smile.8.rest.png</file>
+        <file>sd/appbar.smile.9.rest.png</file>
+        <file>sd/appbar.smile.10.rest.png</file>
+        <file>sd/appbar.smile.11.rest.png</file>
+        <file>sd/appbar.smile.12.rest.png</file>
+        <file>sd/appbar.smile.13.rest.png</file>
+        <file>sd/appbar.smile.14.rest.png</file>
+        <file>sd/appbar.smile.15.rest.png</file>
+        <file>sd/appbar.smile.16.rest.png</file>
+        <file>sd/appbar.smile.17.rest.png</file>
+        <file>sd/appbar.smile.18.rest.png</file>
+        <file>sd/appbar.smile.19.rest.png</file>
+        <file>sd/appbar.smile.20.rest.png</file>
+        <file>sd/appbar.smile.21.rest.png</file>
+        <file>sd/appbar.smile.22.rest.png</file>
+        <file>sd/appbar.smile.23.rest.png</file>
+        <file>sd/appbar.social.like.rest.png</file>
+        <file>sd/appbar.social.retweet.rest.png</file>
+        <file>sd/appbar.social.unlike.rest.png</file>
+        <file>sd/appbar.speaker.rest.png</file>
+        <file>sd/appbar.status.rest.png</file>
+        <file>sd/appbar.switch.rest.png</file>
+        <file>sd/appbar.tabs.2.rest.png</file>
+        <file>sd/appbar.tabs.3.rest.png</file>
+        <file>sd/appbar.tabs.4.rest.png</file>
+        <file>sd/appbar.tabs.5.rest.png</file>
+        <file>sd/appbar.tabs.6.rest.png</file>
+        <file>sd/appbar.tabs.rest.png</file>
+        <file>sd/appbar.task.complete.rest.png</file>
+        <file>sd/appbar.time.rest.png</file>
+        <file>sd/appbar.transport.repeat.rest.png</file>
+        <file>sd/appbar.transport.repeatone.rest.png</file>
+        <file>sd/appbar.transport.shuffle.rest.png</file>
+        <file>sd/appbar.voicemail.rest.png</file>
+        <file>sd/appbar.weather.moon.rest.png</file>
+        <file>sd/appbar.weather.rainbow.rest.png</file>
+        <file>sd/appbar.weather.sun.rest.png</file>
+        <file>sd/appbar.weather.umbrella.rest.png</file>
+        <file>sd/audacity.png</file>
+        <file>sd/avira antivir.png</file>
+        <file>sd/yahoo messenger.png</file>
+        <file>sd/2/apps folder.png</file>
+        <file>sd/2/bit torrent.png</file>
+        <file>sd/2/br.png</file>
+        <file>sd/2/bsplayer.png</file>
+        <file>sd/2/ccleaner.png</file>
+        <file>sd/2/cd.png</file>
+        <file>sd/2/computer.png</file>
+        <file>sd/2/controlpanel.png</file>
+        <file>sd/2/daemon tools.png</file>
+        <file>sd/2/digicam.png</file>
+        <file>sd/2/downloadfolder.png</file>
+        <file>sd/2/downloads.png</file>
+        <file>sd/2/dvd.png</file>
+        <file>sd/2/eMule.png</file>
+        <file>sd/2/favourites.png</file>
+        <file>sd/2/feeds.png</file>
+        <file>sd/2/firefox.png</file>
+        <file>sd/2/firewiredrive.png</file>
+        <file>sd/2/folder.png</file>
+        <file>sd/2/foobar.png</file>
+        <file>sd/2/gamefolder.png</file>
+        <file>sd/2/google chrome.png</file>
+        <file>sd/2/google earth.png</file>
+        <file>sd/2/harddrive c.png</file>
+        <file>sd/2/harddrive d.png</file>
+        <file>sd/2/harddrive e.png</file>
+        <file>sd/2/harddrive f.png</file>
+        <file>sd/2/harddrive g.png</file>
+        <file>sd/2/HD.png</file>
+        <file>sd/2/icq.png</file>
+        <file>sd/2/inetexplorer.png</file>
+        <file>sd/2/ipod touch.png</file>
+        <file>sd/2/ipod.png</file>
+        <file>sd/2/itunes.png</file>
+        <file>sd/2/j downloader.png</file>
+        <file>sd/2/miranda.png</file>
+        <file>sd/2/mouse.png</file>
+        <file>sd/2/moviefolder.png</file>
+        <file>sd/2/music.png</file>
+        <file>sd/2/musicfolder.png</file>
+        <file>sd/2/nero burning rom.png</file>
+        <file>sd/2/network2.png</file>
+        <file>sd/2/network.png</file>
+        <file>sd/2/notepad.png</file>
+        <file>sd/2/open canvas.png</file>
+        <file>sd/2/opera.png</file>
+        <file>sd/2/orbit downloader.png</file>
+        <file>sd/2/paint net.png</file>
+        <file>sd/2/paint tool sai.png</file>
+        <file>sd/2/paint.png</file>
+        <file>sd/2/pc.png</file>
+        <file>sd/2/picturefolder.png</file>
+        <file>sd/2/printer.png</file>
+        <file>sd/2/rainmeter.png</file>
+        <file>sd/2/recycle bin.png</file>
+        <file>sd/2/rw.png</file>
+        <file>sd/2/safari.png</file>
+        <file>sd/2/second life.png</file>
+        <file>sd/2/showdesktop.png</file>
+        <file>sd/2/skype.png</file>
+        <file>sd/2/songbird.png</file>
+        <file>sd/2/steam.png</file>
+        <file>sd/2/taskmanager.png</file>
+        <file>sd/2/tuneup.png</file>
+        <file>sd/2/twitter.png</file>
+        <file>sd/2/usb stick.png</file>
+        <file>sd/2/utorrent.png</file>
+        <file>sd/2/vuze.png</file>
+        <file>sd/2/winamp.png</file>
+        <file>sd/2/windows live messenger.png</file>
+        <file>sd/2/windows mediaplayer 2.png</file>
+        <file>sd/2/winrar.png</file>
+        <file>sd/2/wlan stick.png</file>
+        <file>sd/2/zune hd.png</file>
+        <file>sd/2/zune.png</file>
+        <file>sd/aimp.png</file>
+        <file>sd/alcohol 120.png</file>
+        <file>sd/appbar.activate.rest.png</file>
+        <file>sd/aim.png</file>
+    </qresource>
+    <qresource prefix="/txt"/>
+    <qresource prefix="/dll"/>
+    <qresource prefix="/icons/sd/1">
+        <file>sd/1/ACDSee.png</file>
+        <file>sd/1/Adobe Premiere.png</file>
+        <file>sd/1/Alienware.png</file>
+        <file>sd/1/Apple.png</file>
+        <file>sd/1/Burn CD.png</file>
+        <file>sd/1/CCleaner.png</file>
+        <file>sd/1/CD.png</file>
+        <file>sd/1/Cinema 4D.png</file>
+        <file>sd/1/Crystaline.png</file>
+        <file>sd/1/Cubase.png</file>
+        <file>sd/1/dart.png</file>
+        <file>sd/1/Gnome.png</file>
+        <file>sd/1/Icon Packager.png</file>
+        <file>sd/1/ICQ.png</file>
+        <file>sd/1/illustrator.png</file>
+        <file>sd/1/Movies.png</file>
+        <file>sd/1/Mozilla Firefox.png</file>
+        <file>sd/1/My Pictures.png</file>
+        <file>sd/1/Nero Burning.png</file>
+        <file>sd/1/Nero.png</file>
+        <file>sd/1/Object Dock.png</file>
+        <file>sd/1/PC.png</file>
+        <file>sd/1/Photo Shop.png</file>
+        <file>sd/1/Photo.png</file>
+        <file>sd/1/Recycle Empty.png</file>
+        <file>sd/1/Recycle Full.png</file>
+        <file>sd/1/Shut Down.png</file>
+        <file>sd/1/Skype.png</file>
+        <file>sd/1/Sound Forge.png</file>
+        <file>sd/1/Stand By.png</file>
+        <file>sd/1/Style XP.png</file>
+        <file>sd/1/TC.png</file>
+        <file>sd/1/Teevee.png</file>
+        <file>sd/1/Ubuntu.png</file>
+        <file>sd/1/win.png</file>
+        <file>sd/1/Winamp.png</file>
+        <file>sd/1/Window Blinds.png</file>
+        <file>sd/1/WMP.png</file>
+        <file>sd/1/X.png</file>
+        <file>sd/1/Z Brush.png</file>
+    </qresource>
+    <qresource prefix="/icon/3">
+        <file>sd/3/512x512 png/View QR code.png</file>
+        <file>sd/3/512x512 png/Alarm clock.png</file>
+        <file>sd/3/512x512 png/Alarm.png</file>
+        <file>sd/3/512x512 png/Bank.png</file>
+        <file>sd/3/512x512 png/Barcode scanner.png</file>
+        <file>sd/3/512x512 png/Basket.png</file>
+        <file>sd/3/512x512 png/Calculator.png</file>
+        <file>sd/3/512x512 png/Cash register.png</file>
+        <file>sd/3/512x512 png/Coins.png</file>
+        <file>sd/3/512x512 png/Company.png</file>
+        <file>sd/3/512x512 png/Compass.png</file>
+        <file>sd/3/512x512 png/Contacts.png</file>
+        <file>sd/3/512x512 png/Date.png</file>
+        <file>sd/3/512x512 png/Delivery.png</file>
+        <file>sd/3/512x512 png/Earn.png</file>
+        <file>sd/3/512x512 png/Earth.png</file>
+        <file>sd/3/512x512 png/Email.png</file>
+        <file>sd/3/512x512 png/Envelope.png</file>
+        <file>sd/3/512x512 png/Expenses.png</file>
+        <file>sd/3/512x512 png/Handshake.png</file>
+        <file>sd/3/512x512 png/Income.png</file>
+        <file>sd/3/512x512 png/Mail list.png</file>
+        <file>sd/3/512x512 png/Mail.png</file>
+        <file>sd/3/512x512 png/Management.png</file>
+        <file>sd/3/512x512 png/Open mail.png</file>
+        <file>sd/3/512x512 png/Payment.png</file>
+        <file>sd/3/512x512 png/Piggy bank.png</file>
+        <file>sd/3/512x512 png/Plot.png</file>
+        <file>sd/3/512x512 png/Postcard.png</file>
+        <file>sd/3/512x512 png/Properties.png</file>
+        <file>sd/3/512x512 png/QR code.png</file>
+        <file>sd/3/512x512 png/Salary.png</file>
+        <file>sd/3/512x512 png/Scan barcode.png</file>
+        <file>sd/3/512x512 png/Schedule.png</file>
+        <file>sd/3/512x512 png/Send mail.png</file>
+        <file>sd/3/512x512 png/Service.png</file>
+        <file>sd/3/512x512 png/Timer.png</file>
+        <file>sd/3/512x512 png/Timetable.png</file>
+        <file>sd/3/512x512 png/Tools.png</file>
+    </qresource>
+    <qresource prefix="/LOGS">
+        <file>Logs/BathroomLogs.txt</file>
+        <file>Logs/ErrorLogs.txt</file>
+        <file>Logs/HallLogs.txt</file>
+        <file>Logs/Info.txt</file>
+        <file>Logs/KitchenLogs.txt</file>
+        <file>Logs/OutsideLogs.txt</file>
+        <file>Logs/RoomLogs.txt</file>
+    </qresource>
+</RCC>

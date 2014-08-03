@@ -1,0 +1,11 @@
+Date:
+
+Name:
+KishmarHouse
+
+Version:
+1.0
+
+Description:
+This program was designed as part of the project 
+of the housecontrol system for Windows OS
