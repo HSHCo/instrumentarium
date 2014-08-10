@@ -27,7 +27,7 @@
 #define JOYSTICK_Y A1
 
 // NOTE: 
-const uint64_t pipe = 0xE8E8F0F0E1LL; // Define the transmit pipe/the "LL" at the end of the constant is "LongLong" type
+const uint64_t pipe = 0xA1A1A1A1A1LL; // Define the transmit pipe/the "LL" at the end of the constant is "LongLong" type
 
 RF24 radio(CE_PIN, CSN_PIN); // Create a Radio
 int joystick[2];  // 2 element array holding Joystick readings
